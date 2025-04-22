@@ -5,7 +5,7 @@ import java.util.Date;
 public class Medico extends AtendenteHospitalar {
     private Long idMedico;
     private int numeroCRM;
-    private ArrayList<String> areaEspecialidade;
+    private ArrayList<String> areaEspecialidade = new ArrayList<>();
     private boolean cirurgiao;
 
     public Medico(String setor, int chSemanal, String nomeCompleto, Date dataNascimento, Endereco endereco, ContatoTelEmail contato, Genero genero) {
